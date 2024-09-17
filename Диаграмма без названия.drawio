@@ -4,23 +4,76 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="NSudbpyUwgiWTNqCxdTF-1" value="Источники данных" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="30" y="80" width="150" height="420" as="geometry" />
+        <mxCell id="R_MVeHPW9k1XH_oFSXGs-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="NSudbpyUwgiWTNqCxdTF-1" target="R_MVeHPW9k1XH_oFSXGs-1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NSudbpyUwgiWTNqCxdTF-2" value="1СБухгалетия" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
+        <mxCell id="NSudbpyUwgiWTNqCxdTF-1" value="Источники данных" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="30" y="80" width="160" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="NSudbpyUwgiWTNqCxdTF-2" value="БД Заказов" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
           <mxGeometry x="75" y="120" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="NSudbpyUwgiWTNqCxdTF-3" value="БД Поставщиков" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
-          <mxGeometry x="80" y="210" width="60" height="80" as="geometry" />
+          <mxGeometry x="75" y="210" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="NSudbpyUwgiWTNqCxdTF-4" value="Склад" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
           <mxGeometry x="75" y="300" width="60" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="NSudbpyUwgiWTNqCxdTF-5" value="Аналитика с платформы" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
+        <mxCell id="NSudbpyUwgiWTNqCxdTF-5" value="Пользовательская аналитика" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
           <mxGeometry x="75" y="390" width="60" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="R_MVeHPW9k1XH_oFSXGs-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="250" y="190" width="120" height="60" as="geometry" />
+        <mxCell id="R_MVeHPW9k1XH_oFSXGs-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="R_MVeHPW9k1XH_oFSXGs-1" target="R_MVeHPW9k1XH_oFSXGs-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="350" y="518" as="targetPoint" />
+            <mxPoint x="350" y="268" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R_MVeHPW9k1XH_oFSXGs-1" value="Apache NiFi&lt;div&gt;Выгрузка данных&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="R_MVeHPW9k1XH_oFSXGs-2" value="Greenplum" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="400" y="188" width="310" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="R_MVeHPW9k1XH_oFSXGs-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="R_MVeHPW9k1XH_oFSXGs-3" target="R_MVeHPW9k1XH_oFSXGs-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R_MVeHPW9k1XH_oFSXGs-3" value="Apache AirFlow&lt;div&gt;&lt;span style=&quot;font-size: 11px; text-wrap: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;Оркестрация трансформацией и очисткой данных&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="400" y="81" width="310" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="R_MVeHPW9k1XH_oFSXGs-4" value="Данные в исходном виде" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="410" y="228" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="R_MVeHPW9k1XH_oFSXGs-5" value="Очищенные даннве" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="500" y="228" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="R_MVeHPW9k1XH_oFSXGs-7" value="Преобразованные данные" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="228" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="R_MVeHPW9k1XH_oFSXGs-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="R_MVeHPW9k1XH_oFSXGs-1" target="R_MVeHPW9k1XH_oFSXGs-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="350" y="268" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R_MVeHPW9k1XH_oFSXGs-12" value="Данные покупателей" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="75" y="480" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="R_MVeHPW9k1XH_oFSXGs-15" value="ClickHouse" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="400" y="363" width="310" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="R_MVeHPW9k1XH_oFSXGs-16" value="Данные в исходном виде" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="410" y="403" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="R_MVeHPW9k1XH_oFSXGs-17" value="Очищенные даннве" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="500" y="403" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="R_MVeHPW9k1XH_oFSXGs-18" value="Преобразованные данные" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="403" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="R_MVeHPW9k1XH_oFSXGs-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="R_MVeHPW9k1XH_oFSXGs-22" target="R_MVeHPW9k1XH_oFSXGs-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R_MVeHPW9k1XH_oFSXGs-22" value="Apache Flink&lt;div&gt;&lt;span style=&quot;font-size: 11px; text-wrap: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;Оркестрация трансформацией и очисткой данных&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="400" y="529" width="310" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
