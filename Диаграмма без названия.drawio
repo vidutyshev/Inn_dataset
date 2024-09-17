@@ -4,8 +4,20 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="NSudbpyUwgiWTNqCxdTF-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="30" y="80" width="120" height="290" as="geometry" />
+        <mxCell id="NSudbpyUwgiWTNqCxdTF-1" value="Источники данных" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="30" y="80" width="150" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="NSudbpyUwgiWTNqCxdTF-2" value="1СБухгалетия" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="75" y="120" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NSudbpyUwgiWTNqCxdTF-3" value="БД Поставщиков" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="80" y="210" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NSudbpyUwgiWTNqCxdTF-4" value="Склад" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="75" y="300" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NSudbpyUwgiWTNqCxdTF-5" value="Аналитика с платформы" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="75" y="390" width="60" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
